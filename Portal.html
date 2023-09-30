@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .spinner-box {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            background-color: transparent;
+        }
+
+        .leo-border-1 {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            padding: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: rgb(63,249,220);
+            background: linear-gradient(0deg,rgba(63,249,220,0.1) 33%, rgba(63,249,220,1) 100%);
+            animation: spin3D 1.8s linear 0s infinite ;
+        }
+
+        .leo-core-1 {
+            width: 100%;
+            height: 100%;
+            background-color: #37474faa;
+            border-radius: 50%;
+        }
+
+        .leo-border-2 {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            padding: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: rgb(251,91,83);
+            background: linear-gradient(0deg,rgba(251,91,83,0.1) 33%, rgba(251,91,83,1) 100%);
+            animation: spin3D 2.2s linear 0s infinite ;
+        }
+
+        .leo-core-2 {
+            width: 100%;
+            height: 100%;
+            background-color: #1d2630aa;
+            border-radius: 50%;
+        }
+
+        @keyframes spin3D {
+            from {
+                transform: rotate3d(.5,.5,.5,360deg);
+            }
+            to {
+                transform: rotate3d(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <head>Hello Nidhi,</head>
+    <p>The following is a collection of fun activities you might wanna try out if you're bored or aren't feeling that well.</p>
+    <hr />
+    <p>Engage in a real-time, multi-player, economics-themed, strategic game. Click on the link below to open the website in a new page.</p>
+    <a href="https://richup.io/" target="_blank">Monopoly</a>
+    <hr />
+    <p>Arrange your Navy Fleet in the most subtle way, for the opponent is gonna try to find every one of your ships. Click on the link below to open the website in a new page.</p>
+    <a href="https://papergames.io/en/battleship" target="_blank">Battleship</a>
+    <hr />
+    <p>The Classic Card game now on your computer screen. Click on the link below to open the website in a new page.</p>
+    <a href="https://www.solitaireparadise.com/games_list/uno-online.html" target="_blank">UNO</a>
+    <hr />
+    <p>Make as many boxes as you can and claim the crown for yourself. Click on the link below to open the website in a new page.</p>
+    <a href="http://dotsgame.co/games" target="_blank">Dots And Boxes</a>
+    <hr />
+    <p>Create art together. Click on the link below to open the website in a new page.</p>
+    <a href="https://magma.com/index" target="_blank">Draw Together</a>
+    <hr />
+    <p>Dive into chess (even though you don't remember the rules). Click on the link below to open the website in a new page.</p>
+    <a href="https://papergames.io/en/chess" target="_blank">Chess</a>
+    <hr />
+    <p>Race your Tokens to the Central Hub . Click on the link below to open the website in a new page.</p>
+    <a href="https://www.gamezop.com/g/SkhljT2fdgb/Ludo-With-Friends" target="_blank">Ludo</a>
+    <hr />
+    <p>Wager for the Royal Flush in this computer-based Texas Hold'em form of poker. Click on the link below to open the website in a new page.</p>
+    <a href="https://www.pokernow.club/" target="_blank">Poker</a>
+    <hr />
+
+    <div class="spinner-box">
+        <div class="leo-border-1">
+            <div class="leo-core-1"></div>
+        </div>
+        <div class="leo-border-2">
+            <div class="leo-core-2"></div>
+        </div>
+    </div>
+</body>
+</html>
